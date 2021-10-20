@@ -5,7 +5,7 @@
 ##### Goal of the project
 The core objective of this project is to predict what identifies a winner at the Formula One race through the _result points_.
 
-After performing the initial EDA which includes:
+After performing the initial EDA which included:
 1. Web Scarpping of the Formula One website which resulted into 3 different data frames based on each year the race occured from 2010 to 2021 which were later on concatenated into one data frame.
 2. Dropped all duplicated and uneeded columns.
 3. Removed & handled nulls.
