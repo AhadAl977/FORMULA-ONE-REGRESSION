@@ -15,11 +15,11 @@ After performing the initial EDA which includes:
 The number of columns and rows before cleaning were **53 and 9413**
 After cleaning up the data the number of columns and rows are **28 and 3294**
 
-<img src="https://github.com/AhadAl977/Formula-one-Regression/blob/main/Images/heatmap.png" width="300"/>
+<img src="https://github.com/AhadAl977/Formula-one-Regression/blob/main/Images/heatmap.png" width="400"/>
 
 The correlation between all numeric columns was calculated. As shown in the heatmap graph there are a lot of columns that are highly correlated with another for example Qualifying Pos with Starting Grid Pos. 
 
-<img src="https://github.com/AhadAl977/Formula-one-Regression/blob/main/Images/regression%20models.PNG" width="200"/> 
+<img src="https://github.com/AhadAl977/Formula-one-Regression/blob/main/Images/regression%20models.PNG" width="300"/> 
 Several models have been tested to generate the best Rˆ2 value possible to start building on. As seen in the table above the best Rˆ2 value was in the Polynomial Regression which resulted in 0.75 in both training set and validation set which further indicates the absence of overfitting. This model has been chosen for the regression probelm of this project.
 
 
