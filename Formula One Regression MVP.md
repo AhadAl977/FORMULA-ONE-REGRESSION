@@ -9,8 +9,8 @@ After performing the initial EDA which included:
 1. Web Scarpping of the Formula One website which resulted into 3 different data frames based on each year the race occured from 2010 to 2021 which were later on concatenated into one data frame.
 2. Dropped all duplicated and uneeded columns.
 3. Removed & handled nulls.
-4. Converting object-type columns into numeric.
-5. Converting Time-formatted values into the total number of seconds.
+4. Converted object-type columns into numeric.
+5. Converted Time-formatted values into the total number of seconds.
 
 The number of columns and rows before cleaning were **53 and 9413**
 After cleaning up the data the number of columns and rows are **28 and 3294**
@@ -27,7 +27,7 @@ Several models have been tested to generate the best Rˆ2 value possible to star
 <img src="https://github.com/AhadAl977/Formula-one-Regression/blob/main/Images/ResandPredicted.png" width="380"/> 
 
 The first model that was tested and played with was OLS with the Rˆ2 value **=0.727** (as shown previously in the table above). Using this initial model two simple graphs were made to paint the picture clearly. The first graph was done to plot the values of the __true target__ & the __predicted target__ which shows some linearity with much added noise.
-In the second graph though, a plot was done to depict the relationship between the __error__ & the __predicted target__. A lot of residiuals are shown across the __predicted target__ values. Given that the OlS is the second-worse in terms of Rˆ2 value there's no doubt that there's plenty of errors and the __predicted target__ values didn't fit well once compared with the __true target__ values.
+In the second graph though, a plot was done to depict the relationship between the __error__ & the __predicted target__. A lot of residiuals are shown across the __predicted target__ values. Given that the OLS is the second-worse in terms of Rˆ2 value there's no doubt that there's plenty of errors and the __predicted target__ values didn't fit well once compared with the __true target__ values.
 
 
 ##### Futrue Work
