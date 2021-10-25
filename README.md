@@ -1,4 +1,4 @@
-# Formula-one-Regression
+# Formula One Regression
 
 SDAIA T5 Data Science Bootcamp - Regression Model <br>
 This project focuses on the determination  of number of points for racers in the Formula One race based on many impactful features.<br>
